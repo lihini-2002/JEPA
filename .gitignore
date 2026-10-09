@@ -1,0 +1,50 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter notebook checkpoints and local settings
+.ipynb_checkpoints/
+.jupyter/
+
+# macOS and editor metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local datasets and generated analysis outputs
+# Remove these entries if the data/results are intentionally versioned.
+data/
+figures/
+results/
